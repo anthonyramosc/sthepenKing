@@ -1,0 +1,22 @@
+<table>
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Title</th>
+        <th>Handle</th>
+        <th>Publisher</th>
+        <th>ISBN</th>
+        <th>Pages</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *NgFor="let king of data">
+        <td>{{ king.Year }}</td>
+        <td>{{ king.Title }}</td>
+        <td>{{ king.handle }}</td>
+        <td>{{ king.Publisher }}</td>
+        <td>{{ king.ISBN }}</td>
+        <td>{{ king.Pages }}</td>
+      </tr>
+    </tbody>
+  </table>
